@@ -1,6 +1,5 @@
-# 📚 UniTask - Gestor de Tareas Universitarias
+# 📚 Prueba- Gestor de Tareas Universitarias
 
-![Banner](img/banner.png)
 
 ## 🎓 Descripción
 
@@ -135,7 +134,7 @@ Ingresar a:
 
 https://vercel.com
 
-![Vercel](img/vercel1.png)
+
 
 ---
 
@@ -143,7 +142,7 @@ https://vercel.com
 
 Iniciar sesión con GitHub.
 
-![Vercel](img/vercel2.png)
+
 
 ---
 
@@ -155,7 +154,7 @@ Seleccionar:
 Add New Project
 ```
 
-![Vercel](img/vercel3.png)
+
 
 ---
 
@@ -175,7 +174,7 @@ Presionar:
 Deploy
 ```
 
-![Vercel](img/vercel5.png)
+
 
 ---
 
@@ -183,7 +182,6 @@ Deploy
 
 Esperar la compilación automática.
 
-![Vercel](img/vercel6.png)
 
 ---
 
