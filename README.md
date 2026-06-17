@@ -160,9 +160,9 @@ Add New Project
 
 ## Paso 4
 
-Importar el repositorio UniTask.
+Importar el repositorio Prueba-App.
 
-![Vercel](img/vercel4.png)
+
 
 ---
 
