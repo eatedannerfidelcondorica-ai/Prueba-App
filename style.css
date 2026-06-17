@@ -1,0 +1,201 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+    transition:0.3s;
+}
+
+header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo i{
+    font-size:35px;
+}
+
+#darkModeBtn{
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#666;
+}
+
+.resumen{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px 40px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card span{
+    font-size:35px;
+    color:#4f46e5;
+    font-weight:bold;
+}
+
+.formulario{
+    padding:40px;
+}
+
+.formulario h2{
+    margin-bottom:20px;
+}
+
+form{
+    display:grid;
+    gap:15px;
+}
+
+input,
+select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+button{
+    background:#4f46e5;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+.progreso{
+    padding:40px;
+}
+
+.barra{
+    width:100%;
+    height:30px;
+    background:#ddd;
+    border-radius:50px;
+    overflow:hidden;
+}
+
+#barraProgreso{
+    width:0%;
+    height:100%;
+    background:linear-gradient(90deg,#22c55e,#16a34a);
+    transition:.4s;
+}
+
+#porcentaje{
+    text-align:center;
+    margin-top:10px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.lista{
+    padding:40px;
+}
+
+.task{
+    background:white;
+    margin-bottom:15px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.task h3{
+    margin-bottom:10px;
+}
+
+.task p{
+    margin-bottom:5px;
+}
+
+.task button{
+    margin-right:10px;
+}
+
+.completada{
+    border-left:8px solid #22c55e;
+    opacity:.8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    color:white;
+    margin-top:30px;
+}
+
+/* MODO OSCURO */
+
+.dark{
+    background:#111827;
+    color:white;
+}
+
+.dark .card,
+.dark .task{
+    background:#1f2937;
+    color:white;
+}
+
+.dark input,
+.dark select{
+    background:#374151;
+    color:white;
+    border:none;
+}
+
+.dark .hero p{
+    color:#cbd5e1;
+}

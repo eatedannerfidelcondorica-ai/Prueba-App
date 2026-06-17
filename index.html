@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniTask - Gestor de Tareas Universitarias</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        <h1>UniTask</h1>
+    </div>
+
+    <button id="darkModeBtn">
+        🌙 Modo Oscuro
+    </button>
+
+</header>
+
+<section class="hero">
+
+    <h2>Organiza tus tareas universitarias</h2>
+
+    <p>
+        Gestiona materias, tareas, exámenes y mejora tu productividad.
+    </p>
+
+</section>
+
+<section class="resumen">
+
+    <div class="card">
+        <h3>Tareas Totales</h3>
+        <span id="totalTareas">0</span>
+    </div>
+
+    <div class="card">
+        <h3>Completadas</h3>
+        <span id="completadas">0</span>
+    </div>
+
+    <div class="card">
+        <h3>Pendientes</h3>
+        <span id="pendientes">0</span>
+    </div>
+
+</section>
+
+<section class="formulario">
+
+    <h2>Agregar Nueva Tarea</h2>
+
+    <form id="taskForm">
+
+        <input
+            type="text"
+            id="titulo"
+            placeholder="Nombre de la tarea"
+            required
+        >
+
+        <select id="materia">
+
+            <option value="Anatomía">
+                Anatomía
+            </option>
+
+            <option value="Histología">
+                Histología
+            </option>
+
+            <option value="Embriología">
+                Embriología
+            </option>
+
+            <option value="Fisiología">
+                Fisiología
+            </option>
+
+            <option value="Bioquímica">
+                Bioquímica
+            </option>
+
+        </select>
+
+        <input
+            type="date"
+            id="fecha"
+            required
+        >
+
+        <button type="submit">
+            Agregar Tarea
+        </button>
+
+    </form>
+
+</section>
+
+<section class="progreso">
+
+    <h2>Progreso Académico</h2>
+
+    <div class="barra">
+
+        <div id="barraProgreso"></div>
+
+    </div>
+
+    <p id="porcentaje">
+        0%
+    </p>
+
+</section>
+
+<section class="lista">
+
+    <h2>Mis Tareas</h2>
+
+    <div id="taskList">
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 UniTask | Desarrollado por Danner Fidel Condori Candia
+    </p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
