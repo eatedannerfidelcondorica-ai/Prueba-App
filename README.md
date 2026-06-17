@@ -102,10 +102,10 @@ en cualquier navegador web.
 Crear un nuevo repositorio llamado:
 
 ```bash
-UniTask
+Prueba-App
 ```
 
-![GitHub](img/github1.png)
+
 
 ---
 
@@ -122,7 +122,7 @@ git remote add origin https://github.com/TU-USUARIO/UniTask.git
 git push -u origin main
 ```
 
-![GitHub](img/github2.png)
+
 
 ---
 
